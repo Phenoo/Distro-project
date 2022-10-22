@@ -23,35 +23,46 @@ const Navigation = () => {
     window.addEventListener('scroll', windowScroll);
   })
 
+  
+  const scrollTo = (id) => {
+    let element = document.getElementById(id);
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest'
+    })
+    setNavbar(!navbar)
+  }
+
   return (
     <nav ref={navRef} className={`${fixed}`}>
         <header className="header">
             <Logo />
             <div className={`nav-links ${navbar ? 'navbar' : ''}`} >
               <ul>
-                <li>
+                <li onClick={() => scrollTo('home')}>
                   <a href="#a">
-                    about
+                    home
                   </a>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('experience')}>
                   <a href="#a">
                     Experience
                   </a>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('features')}>
                   <a href="#a">
                     features
                   </a>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('download')}>
                   <a href="#a">
                     download
                   </a>
                 </li>
-                <li>
+                <li onClick={() => scrollTo('faq')}>
                   <a href="#a">
-                    contact
+                    faq
                   </a>
                 </li>
               </ul>

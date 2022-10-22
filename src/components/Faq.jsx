@@ -41,7 +41,7 @@ const Faq = () => {
   const [ask, setAsk] = useState(data)
 
   return (
-    <div className="faq">
+    <div className="faq" id="faq">
       <section>
         <div className="center">
           <h6 className="tophead">

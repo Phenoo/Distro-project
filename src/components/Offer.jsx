@@ -40,7 +40,7 @@ const Offer = () => {
   },
 ]
   return (
-    <div className='offer'>
+    <div className='offer' id='features'>
       <section className='offer-container'>
         <div className="center">
           <h6 className="tophead">

@@ -82,6 +82,7 @@ const Footer = () => {
               </ul>
             </div>
         </div>
+        <div className="line"></div>
         <div className="between">
           <p>
             &copy; distro logistics

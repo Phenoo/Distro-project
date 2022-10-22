@@ -2,7 +2,7 @@ import Img from '../assets/googlelogo.png'
 import Img1 from '../assets/girl.jpg'
 const Download = () => {
   return (
-    <div className="full download">
+    <div className="full download" id="download">
       <section >
         <div className="download-container grid">
           <div className="google-link">

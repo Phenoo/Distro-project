@@ -2,7 +2,7 @@ import Img from '../assets/phone.jpg'
 
 const Home = () => {
   return (
-    <section>
+    <section id="home">
       <div className="home">
           <div className="home-text">
             <h2>

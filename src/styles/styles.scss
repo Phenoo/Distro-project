@@ -23,7 +23,7 @@ input {
 }
 
 h2 {
-    font-family: 'Outfit', sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 h4,
@@ -61,11 +61,6 @@ img {
     }
 }
 
-nav {
-    width: 85%;
-    margin: 0 auto;
-}
-
 .menu-btn {
     display: none;
 }
@@ -75,6 +70,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    width: 85%;
+    margin: 0 auto;
     .nav-links {
         ul {
             gap: 1rem;
@@ -88,6 +85,7 @@ nav {
 .logo {
     display: flex;
     gap: 2px;
+    margin-left: -10px;
     align-items: center;
     img {
         width: 20px;
@@ -122,6 +120,9 @@ nav {
         }
         p {
             font-size: 1.25rem;
+            margin: 1rem 0;
+        }
+        button {
             margin: 1rem 0;
         }
     }
@@ -266,6 +267,7 @@ img {
     gap: 1rem;
     flex-direction: column;
     width: 100%;
+    margin: 1rem 0;
     h4 {
         color: #16b276;
     }
@@ -374,6 +376,10 @@ img {
 }
 
 footer {
+    background: #035133;
+    color: #fff;
+    margin-top: 3rem;
+    padding-top: 3rem;
     section {
         padding-bottom: 1rem;
     }
@@ -397,7 +403,10 @@ footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-top: 3em;
+        margin-top: 1rem;
+        ul {
+            gap: 1rem;
+        }
         p {
             text-transform: capitalize;
         }
@@ -442,7 +451,7 @@ footer {
     }
     .navbar {
         display: flex;
-        width: 60vw;
+        width: 80vw;
         height: 100vh;
         position: absolute;
         top: 0;
@@ -457,10 +466,13 @@ footer {
         transition: width 0.5s ease;
         ul {
             flex-direction: column;
+            width: 100%;
         }
         li {
             color: #111;
             margin-top: 1rem;
+            border-bottom: 1px solid #111;
+            padding-bottom: 1rem;
             a {
                 font-size: 1.5rem;
             }
@@ -480,7 +492,7 @@ footer {
     .offer {
         .offer-item {
             grid-template-columns: 100%;
-            padding-left: 2rem;
+            padding-left: 1rem;
             .image {
                 margin-left: 2rem;
             }
@@ -538,16 +550,43 @@ footer {
     section {
         width: 92.5%;
     }
+    .logo {
+        h4 {
+            font-size: 1.1rem;
+        }
+    }
+    .header {
+        .btn {
+            font-size: 0.75rem;
+            padding: 8px 14px;
+            margin-right: -1rem;
+        }
+    }
+    .home {
+        .home-text {
+            h2 {
+                font-size: 2.25rem;
+            }
+        }
+    }
     .headline {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .tophead {
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
     .offer {
+        .offer-grid {
+            margin-top: 5rem;
+        }
         .offer-item {
             .image {
                 margin-left: 1rem;
+                margin-top: 1rem;
+            }
+            &::after,
+            &::before {
+                left: 5%;
             }
         }
     }
@@ -570,16 +609,39 @@ footer {
         }
     }
     .faq-container {
+        p {
+            margin-top: 1rem;
+            font-size: 0.8rem;
+        }
         .header {
             h6 {
-                font-size: 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    footer {
+        .footgrid {
+            h6 {
+                font-size: 1.1rem;
+            }
+            li {
+                font-size: 0.85rem;
             }
         }
     }
 }
 
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #808080;
+    margin-top: 3em;
+}
+
 .fixed {
-    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -602,6 +664,9 @@ footer {
         svg {
             color: #111;
         }
+    }
+    @media screen and (max-width: 500px) {
+        height: 4rem;
     }
 }
 
