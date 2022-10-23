@@ -54,10 +54,10 @@ const Feature = () => {
               <FaCogs />
             </span>
             <h6>
-              goods tracking and premium insurance cover
+              logistics for any business size
             </h6>
             <p>
-              we have an AI model which allows users to monitor their individual trips and we have insurance cover for damages.
+              we have an AI model which allows users to monitor their individual trips and we pick up any legal goods/ packages of any size.
             </p>
           </div>
           <div className="item">
@@ -76,7 +76,7 @@ const Feature = () => {
               <FaMoneyBill />
             </span>
             <h6>
-              competitive prices
+              detailed descriptive option for optimum efficient pricing
             </h6>
             <p>
               Our prices is one of the best in the market. We're affordable yet gives out quality services to our customers.

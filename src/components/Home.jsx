@@ -8,12 +8,26 @@ const Home = () => {
             <h2>
               The most versatile and efficient logistics service in Nigeria.
             </h2>
-            <p>
-              Distro opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks.
-            </p>
+            <div className="moto">
+              <ul>
+                <li>
+                  <h6>Effective Pricing</h6>
+                </li>
+                <li>
+                  <h6>Efficient Tracking</h6>
+                </li>
+                <li>
+                  <h6>Professional Service.</h6>
+                </li>
+              </ul>
+            </div>
+          
             <button className="btn">
               get started
             </button>
+            <p>
+              Current Active Location:  <strong> Lagos, Nigeria.</strong>
+            </p>
           </div>
           <div className="home-image">
             <img src={Img} alt="home" />

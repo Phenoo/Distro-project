@@ -45,14 +45,19 @@ const Navigation = () => {
                     home
                   </a>
                 </li>
-                <li onClick={() => scrollTo('experience')}>
+                <li onClick={() => scrollTo('about')}>
                   <a href="#a">
-                    Experience
+                    about
                   </a>
                 </li>
                 <li onClick={() => scrollTo('features')}>
                   <a href="#a">
                     features
+                  </a>
+                </li>
+                <li onClick={() => scrollTo('experience')}>
+                  <a href="#a">
+                    Experience
                   </a>
                 </li>
                 <li onClick={() => scrollTo('download')}>

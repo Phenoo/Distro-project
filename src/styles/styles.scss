@@ -126,11 +126,28 @@ img {
             margin: 1rem 0;
         }
     }
+    .moto {
+        margin-top: 2rem;
+        ul {
+            list-style: disc;
+            gap: 1rem;
+        }
+        li {
+            margin-right: 10px;
+        }
+        h6 {
+            font-size: 1.2rem;
+        }
+    }
     .home-image {
         img {
             border-radius: 10px;
         }
     }
+}
+
+.about-grid {
+    margin-top: 3rem;
 }
 
 .headline {
@@ -186,7 +203,7 @@ img {
             content: "";
             position: absolute;
             top: 11px;
-            left: 50%;
+            left: 47%;
             -webkit-transition: height 0.5s ease-out 2s;
             -moz-transition: height 0.5s ease-out 2s;
             transition: height 0.5s ease-out 2s;
@@ -198,7 +215,7 @@ img {
             content: "";
             display: block;
             height: 9px;
-            left: 50%;
+            left: 47%;
             position: absolute;
             transform: translateX(-4px);
             width: 9px;
@@ -218,9 +235,8 @@ img {
         gap: 10px;
         margin-left: 1rem;
         h6 {
-            color: #808080;
             text-transform: capitalize;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 1rem;
         }
         h4 {
@@ -451,7 +467,7 @@ footer {
     }
     .navbar {
         display: flex;
-        width: 80vw;
+        width: 85vw;
         height: 100vh;
         position: absolute;
         top: 0;
@@ -471,7 +487,7 @@ footer {
         li {
             color: #111;
             margin-top: 1rem;
-            border-bottom: 1px solid #111;
+            border-bottom: 1px solid #035133;
             padding-bottom: 1rem;
             a {
                 font-size: 1.5rem;

@@ -12,7 +12,7 @@ const Download = () => {
             <p>
               Distro opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks
             </p>
-            <a href="#a">
+            <a href="https://play.google.com/store/apps/details?id=com.courierx">
               <img src={Img} alt="logo" />
             </a>
           </div>
