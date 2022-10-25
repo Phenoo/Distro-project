@@ -66,7 +66,7 @@ const Navigation = () => {
                   </a>
                 </li>
                 <li onClick={() => scrollTo('faq')}>
-                  <a href="#a">
+                  <a href="#a" style={{textTransform: 'uppercase'}}>
                     faq
                   </a>
                 </li>

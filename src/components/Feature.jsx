@@ -76,7 +76,7 @@ const Feature = () => {
               <FaMoneyBill />
             </span>
             <h6>
-              detailed descriptive option for optimum efficient pricing
+              detailed descriptive option for optimum effective pricing
             </h6>
             <p>
               Our prices is one of the best in the market. We're affordable yet gives out quality services to our customers.

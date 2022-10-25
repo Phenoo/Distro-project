@@ -10,7 +10,7 @@ const Sectors = () => {
             core industries
           </h6>
           <h4 className="headline">
-            industries, sectors we serve
+            industries we serve
           </h4>
           <div className="divider"></div>
           </div>
@@ -20,7 +20,7 @@ const Sectors = () => {
                 <FaBuilding />
               </span>
               <h6>
-                construction
+                construction & mining
               </h6>
               <p>
                 Distro, with the advantage of variety of transport vehicles, undertakes the movement of materials and equipment from where they originate to where the workforce needs them. Our end goal ensures materials and equipment arrive on time and undamaged.
@@ -42,10 +42,10 @@ const Sectors = () => {
                 <FaIndustry />
               </span>
               <h6>
-                mining
+                healthcare
               </h6>
               <p>
-              Distro offers comprehensive and efficient solutions with high standards of safety and quality. Focused on building trust with our clients with simple solutions to complex logistic challenges.
+                Distro also helps in healthcare industry with our fast and reliabe services.
               </p>
             </div>
             <div className="item center">
