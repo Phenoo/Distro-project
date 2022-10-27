@@ -10,10 +10,10 @@ const Download = () => {
         <div className="download-container grid">
           <div className="google-link">
             <h4 className="headline">
-            Download Distro On Google Play
+            Download [COmpany Name] On Google Play
             </h4>
             <p>
-              Distro opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks
+            [COmpany Name]  opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks
             </p>
             <div className="flex">
               <div>

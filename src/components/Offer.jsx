@@ -22,7 +22,7 @@ const Offer = () => {
   {
     id: 3,
     image: Img4 ,
-    text: 'Place your distro service order to be delivered at a designated location, be sure to provide easy landmarks.',
+    text: 'Place your service order to be delivered at a designated location, be sure to provide easy landmarks.',
     name: 'The driver takes the rider to the destination'
   },
   {
@@ -34,7 +34,7 @@ const Offer = () => {
   {
     id: 5,
     image: Img7 ,
-    text: 'Track your order from  the bottom bar and the progress of your delivery service. Distro App also allows to communicate with the customer service whatsapp channel.',
+    text: 'Track your order from  the bottom bar and the progress of your delivery service. This App also allows to communicate with the customer service whatsapp channel.',
     name: 'The driver and rider leave ratings and reviews'
   },
 ]
