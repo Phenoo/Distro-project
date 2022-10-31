@@ -10,7 +10,7 @@ const Download = () => {
         <div className="download-container grid">
           <div className="google-link">
             <h4 className="headline">
-            Download [COmpany Name] On Google Play
+            Download Distro App On Google Play
             </h4>
             <p>
             [COmpany Name]  opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks

@@ -1,10 +1,11 @@
-
+import logo from '../assets/logo.png'
 
 const Logo = () => {
   return (
     <div className="logo">
+      <img src={logo} alt="" />
       <h4>
-        logo here
+        Distro
       </h4>
     </div>
   )

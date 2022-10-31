@@ -87,6 +87,10 @@ img {
     }
 }
 
+.appear {
+    display: none;
+}
+
 .logo {
     display: flex;
     gap: 2px;
@@ -122,6 +126,7 @@ img {
         h2 {
             font-size: 3rem;
             line-height: 3.5rem;
+            text-transform: capitalize;
         }
         p {
             font-size: 1.25rem;
@@ -132,7 +137,8 @@ img {
         }
     }
     .moto {
-        margin-top: 2rem;
+        margin: 1rem 0;
+        padding-left: 1rem;
         ul {
             list-style: disc;
             gap: 1rem;
@@ -333,6 +339,7 @@ img {
     .image {
         img {
             border-radius: 15px;
+            margin-top: 1rem;
         }
     }
 }
@@ -360,7 +367,7 @@ img {
     gap: 10px;
     align-items: center;
     padding: 8px;
-    bfrder-radius: 5px;
+    border-radius: 5px;
     svg {
         font-size: 1.25rem;
     }
@@ -516,13 +523,18 @@ footer {
         }
         li {
             color: #111;
-            margin-top: 1rem;
             border-bottom: 1px solid #035133;
             padding-bottom: 1rem;
             a {
                 font-size: 1.5rem;
             }
         }
+    }
+    .appear {
+        display: flex;
+    }
+    .disappear {
+        display: none;
     }
     .home {
         grid-template-columns: 100%;
@@ -560,6 +572,11 @@ footer {
         .home-text {
             h2 {
                 font-size: 2.5rem;
+            }
+        }
+        .moto {
+            h6 {
+                font-size: 0.7rem;
             }
         }
     }

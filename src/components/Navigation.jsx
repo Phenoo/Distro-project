@@ -45,11 +45,6 @@ const Navigation = () => {
                     home
                   </a>
                 </li>
-                <li onClick={() => scrollTo('about')}>
-                  <a href="#a">
-                    about
-                  </a>
-                </li>
                 <li onClick={() => scrollTo('features')}>
                   <a href="#a">
                     features
@@ -71,8 +66,11 @@ const Navigation = () => {
                   </a>
                 </li>
               </ul>
+              <button className="btn appear">
+                get started
+              </button>
             </div>
-            <button className="btn">
+            <button className="btn disappear">
               get started
             </button>
             <button className='menu-btn' onClick={() => setNavbar(!navbar)}>
