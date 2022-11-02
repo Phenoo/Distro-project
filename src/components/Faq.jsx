@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     title: 'Tell me more about Distro Logistics ?',
-    answer: 'It is a privately owned technology of the ASTEN TRANSPORT COMPANY LTD.',
+    answer: 'Distro opens a variety of options to its customers, making deliveries easier and faster. The app gives access to a variety of delivery services such as bikes, cars, trucks.  Our app is more than just food deliveries but offers home delivery services, deliveringanything you could possibly deliver.',
   },
   {
     id: 2,

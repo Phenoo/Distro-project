@@ -282,7 +282,6 @@ img {
 .four-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    place-items: center;
     gap: 3rem;
     margin-top: 3rem;
     .center {
@@ -322,7 +321,7 @@ img {
 }
 
 .sector {
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 .sector-container {
@@ -330,6 +329,11 @@ img {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin: 3rem 0;
+    .item {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
 }
 
 .download {
@@ -351,7 +355,8 @@ img {
     align-items: center;
 }
 
-.google-link {
+.google-link,
+.flex {
     p {
         font-size: 1.25rem;
         margin: 1rem 0;
@@ -366,10 +371,11 @@ img {
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 8px;
+    padding: 6px 8px;
     border-radius: 5px;
+    border: 1px solid #1212;
     svg {
-        font-size: 1.25rem;
+        font-size: 1.35rem;
     }
     div {
         display: flex;

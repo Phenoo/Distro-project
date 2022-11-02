@@ -14,7 +14,6 @@ import Download from "./components/Download"
 import Footer from "./components/Footer"
 import Faq from "./components/Faq"
 import scrollreveal from 'scrollreveal'
-import About from './components/About';
 
 
 
@@ -67,7 +66,6 @@ const App = () => {
       <div className="full">
         <Navigation />
         <Home />
-        <About />
       </div>
       <main>
         <Offer />

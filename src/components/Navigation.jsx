@@ -1,6 +1,7 @@
 import React, {useState, useRef, useEffect} from 'react'
 import Logo from './Logo'
 import {FaBars, FaTimes} from 'react-icons/fa'
+import DownButton from './DownButton';
 
 const Navigation = () => {
   const [navbar, setNavbar] = useState(false);
@@ -45,14 +46,14 @@ const Navigation = () => {
                     home
                   </a>
                 </li>
-                <li onClick={() => scrollTo('features')}>
-                  <a href="#a">
-                    features
-                  </a>
-                </li>
                 <li onClick={() => scrollTo('experience')}>
                   <a href="#a">
-                    Experience
+                  Experience you get
+                  </a>
+                </li>
+                <li onClick={() => scrollTo('sectors')}>
+                  <a href="#a">
+                    sectors
                   </a>
                 </li>
                 <li onClick={() => scrollTo('download')}>
@@ -66,13 +67,13 @@ const Navigation = () => {
                   </a>
                 </li>
               </ul>
-              <button className="btn appear">
-                get started
-              </button>
+              <div className="appear">
+                <DownButton />
+              </div>
             </div>
-            <button className="btn disappear">
-              get started
-            </button>
+            <div className="disappear">
+              <DownButton />
+            </div>
             <button className='menu-btn' onClick={() => setNavbar(!navbar)}>
             {
               navbar ? <FaTimes/ > : <FaBars />

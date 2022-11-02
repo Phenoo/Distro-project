@@ -11,7 +11,7 @@ const Feature = () => {
             experience
           </h6>
           <h4 className="headline">
-            the experience, what you get
+            the experience you get
           </h4>
         <div className="divider"></div>
         </div>

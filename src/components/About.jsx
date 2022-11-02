@@ -17,8 +17,7 @@ const About = () => {
           </p>
           <br />
           <p>
-            Our app is more than just food deliveries but offers home delivery services, delivering
-            anything you could possibly deliver.
+            Our app is more than just food deliveries but offers home delivery services, deliveringanything you could possibly deliver.
           </p>
         </div>
         <img src={Img1} alt="about" />
