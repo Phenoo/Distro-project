@@ -10,41 +10,33 @@ const Offer = () => {
     id: 1,
     image: Img6 ,
     text: 'Sign up on the app, filling in your personal details',
-    name: 'A rider opens the app'
 
   },
   {
     id: 2,
     image: Img3,
     text: 'Carefully enter pickup details, including item description, providing as much information as possible.',
-    name: 'A rider is matched with a driver'
   },
   {
     id: 3,
     image: Img4 ,
-    text: 'Place your service order to be delivered at a designated location, be sure to provide easy landmarks.',
-    name: 'The driver takes the rider to the destination'
+    text: 'The system carefully analyzes your request and generate the services bill. Payment can be made with cash or debit. ',
   },
   {
     id: 4,
     image: Img8 ,
-    text: 'The system carefully analyzes your request and provides you the service bill. Using your bank card, you can finalize your payment for the delivery service. ',
-    name: 'The driver and rider leave ratings and reviews'
+    text: 'Order tracking is enabled at the end of the bottom  corner of the app tp provide details on the progress of the delivery. The App also allows communication with customer via whatsapp'
   },
   {
     id: 5,
     image: Img7 ,
-    text: 'Track your order from  the bottom bar and the progress of your delivery service. This App also allows to communicate with the customer service whatsapp channel.',
-    name: 'The driver and rider leave ratings and reviews'
+    text: 'Upon delivery, a rating system and comment section is available to the customer for feedback purposes.'
   },
 ]
   return (
     <div className='offer' id='features'>
       <section className='offer-container'>
         <div className="center">
-          <h6 className="tophead">
-            whats the function
-          </h6>
           <h4 className='headline'>
             how to use the distro app
           </h4>

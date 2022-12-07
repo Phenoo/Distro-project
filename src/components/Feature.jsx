@@ -8,10 +8,10 @@ const Feature = () => {
       <section className="feature-container">
         <div className="center">
           <h6 className="tophead">
-            experience
+            the experience you get
           </h6>
           <h4 className="headline">
-            the experience you get
+            features
           </h4>
         <div className="divider"></div>
         </div>

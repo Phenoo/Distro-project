@@ -46,9 +46,14 @@ const Navigation = () => {
                     home
                   </a>
                 </li>
+                <li onClick={() => scrollTo('features')}>
+                  <a href="#a">
+                    how it works
+                  </a>
+                </li>
                 <li onClick={() => scrollTo('experience')}>
                   <a href="#a">
-                  Experience you get
+                    features
                   </a>
                 </li>
                 <li onClick={() => scrollTo('sectors')}>

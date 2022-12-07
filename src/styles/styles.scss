@@ -367,6 +367,14 @@ img {
     }
 }
 
+.google-btn {
+    transition: all 0.3s ease;
+    &:hover {
+        transform: scale(0.9);
+        transition: all 0.3s ease;
+    }
+}
+
 .app-icon {
     display: flex;
     gap: 10px;
@@ -374,6 +382,7 @@ img {
     padding: 6px 8px;
     border-radius: 5px;
     border: 1px solid #1212;
+    transition: all 0.3s ease;
     svg {
         font-size: 1.35rem;
     }
@@ -381,6 +390,10 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    &:hover {
+        transform: scale(0.9);
+        transition: all 0.3s ease;
     }
 }
 
@@ -746,5 +759,32 @@ footer {
     svg {
         color: #fff;
         font-size: 1.3rem;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    .modal-container {
+        background: #041804;
+        color: #fff;
+        width: 50%;
+        height: 300px;
+        margin: 0 auto;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    svg {
+        color: red;
+        font-size: 1.6rem;
+    }
+    h4 {
+        text-transform: capitalize;
     }
 }
