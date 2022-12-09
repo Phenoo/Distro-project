@@ -1,18 +1,32 @@
 import React from 'react'
+import { useState } from 'react'
 import {CgDanger} from 'react-icons/cg'
 
 
 const  Modal = ({setModal, modal}) => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setEmail("");
+    setModal(!modal);
+  }
   return (
     <div className="modal center">
         <div className='modal-container center'>
           <CgDanger />
-          <br />
-          <h4>
-            this is not available now.
-          </h4>
-          <br />
-          <button onClick={() => setModal(!modal)} className='btn'>
+          <p>
+            The Distro IOS App is coming soon. Join our waitlist of Pre-users waiting to get notified.
+          </p>
+          <form onSubmit={handleSubmit}>
+            <div className="form-input">
+              <input type="email" placeholder='Enter Your Email'
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                />
+            </div>
+          </form>
+          <button onClick={handleSubmit} className='btn'>
             okay
           </button>
         </div>

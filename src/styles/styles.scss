@@ -511,7 +511,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .menu-btn {
         display: flex;
     }
@@ -774,11 +774,34 @@ footer {
     .modal-container {
         background: #041804;
         color: #fff;
-        width: 50%;
-        height: 300px;
+        width: 70%;
         margin: 0 auto;
-        padding: 1rem;
+        padding: 2rem 1rem;
         border-radius: 10px;
+        @media screen and (max-width: 500px) {
+            width: 90%;
+            padding: 1.5rem;
+        }
+    }
+    form {
+        width: 300px;
+        @media screen and (max-width: 500px) {
+            width: 250px;
+        }
+        margin: 0 auto;
+        .form-input {
+            width: 100%;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            input {
+                border-radius: 10px;
+                width: 95%;
+                margin: 8px auto;
+                padding: 1rem;
+            }
+        }
     }
     svg {
         color: red;
