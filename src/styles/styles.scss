@@ -36,6 +36,10 @@ p {
     font-weight: 500;
 }
 
+li {
+    cursor: pointer;
+}
+
 a,
 span,
 li {
@@ -459,7 +463,6 @@ footer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
-        place-items: center;
         text-transform: capitalize;
         ul {
             flex-direction: column;
@@ -812,5 +815,31 @@ footer {
     }
     h4 {
         text-transform: capitalize;
+    }
+}
+
+.policy {
+    .article {
+        margin: 1rem 0;
+    }
+    h4 {
+        margin-bottom: 1rem;
+    }
+    ul {
+        flex-direction: column;
+        list-style: disc;
+        margin-left: 2rem;
+        li {
+            margin: 0.5rem 0;
+        }
+    }
+    h5 {
+        font-weight: 800;
+        text-transform: capitalize;
+    }
+    .grey {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+        color: #808080
     }
 }

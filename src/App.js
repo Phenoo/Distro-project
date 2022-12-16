@@ -1,18 +1,10 @@
 import { useEffect } from 'react';
+import { Routes, Route } from "react-router-dom";
 
-
-import Home from "./components/Home"
-import Navigation from "./components/Navigation"
-import Offer from "./components/Offer"
-import Feature from "./components/Feature"
-
-
-
+import Policy from './pages/Policy'
+import Main from './pages/Main'
 import './styles/styles.scss'
-import Sectors from "./components/Sectors"
-import Download from "./components/Download"
 import Footer from "./components/Footer"
-import Faq from "./components/Faq"
 import scrollreveal from 'scrollreveal'
 
 
@@ -63,17 +55,10 @@ const App = () => {
     })
   return (
     <>
-      <div className="full">
-        <Navigation />
-        <Home />
-      </div>
-      <main>
-        <Offer />
-        <Feature />
-        <Sectors />
-        <Download />
-        <Faq />
-      </main>
+      <Routes>
+        <Route exact path='/' element={<Main />} />
+        <Route exact path='/policy' element={<Policy />} />
+      </Routes>
       <Footer />
     </>
   )

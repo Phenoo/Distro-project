@@ -1,29 +1,33 @@
 import React from 'react'
+import Logo from './Logo'
+
+import {FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <footer>
       <section>
         <div className='foot-grid'>
+          <div className="foot">
+            <Logo />
+            <br />
+            <p>
+            The entire public. From businesses to Individuals to corporate bodies, who require logistics services within the cities of operation.
+            </p>
+          </div>
             <div className="foot">
               <h6>
               About Us
               </h6>
               <ul>
                 <li>
-                  support center
+                  <a href="mailto: hello@distro.com.ng">  support center</a>
                 </li>
                 <li>
                   customer support
                 </li>
                 <li>
-                  about us
-                </li>
-                <li>
                   copyright
-                </li>
-                <li>
-                  popular campaign
                 </li>
               </ul>
             </div>
@@ -47,39 +51,19 @@ const Footer = () => {
             </div>
             <div className="foot">
               <h6>
-                my account
+                Social Media
               </h6>
-              <ul>
-                <li>
-                  press inquiries
-                </li>
-                <li>social media</li>
-                <li>directories</li>
-                <li>image &  b-roll</li>
-                <li>permissions</li>
-              </ul>
-            </div>
-            <div className="foot">
-              <h6>
-                policy
-              </h6>
-              <ul>
-                <li>
-                  application security
-                </li>
-                <li>
-                  software principles
-                </li>
-                <li>
-                  unwanted software policy
-                </li>
-                <li>
-                  responsible supply chain
-                </li>
-                <li>
-                  &nbsp;
-                </li>
-              </ul>
+              <div className="flex social">
+                <div>
+                  <FaFacebook />
+                </div>
+                <div>
+                  <FaTwitter />
+                </div>
+                <div>
+                  <FaLinkedin />
+                </div>
+              </div>
             </div>
         </div>
         <div className="line"></div>
@@ -92,7 +76,7 @@ const Footer = () => {
               Phone No: +234 818 601 4986
             </li>
             <li>
-              Email: hello@distro.com.ng
+              Email: <a href="mailto: hello@distro.com.ng">  hello@distro.com.ng</a>
             </li>
           </ul>
         </div>
