@@ -1,7 +1,8 @@
 import React from 'react'
 import Logo from './Logo'
 
-import {FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FaTwitter, FaInstagram} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -27,7 +28,9 @@ const Footer = () => {
                   customer support
                 </li>
                 <li>
+                <Link to='/policy'>
                   copyright
+                </Link>
                 </li>
               </ul>
             </div>
@@ -37,13 +40,19 @@ const Footer = () => {
               </h6>
               <ul>
                 <li>
+                  <Link to='/policy'>
                   return policy
+                  </Link>
                 </li>
                 <li>
-                  privacy policy
+                  <Link to='/policy'>
+                    privacy policy
+                  </Link>
                 </li>
                 <li>
-                  terms & conditions
+                  <Link to='/policy'>
+                    terms & conditions 
+                  </Link>
                 </li>
                 <li>site map</li>
                 <li>store hours</li>
@@ -55,13 +64,14 @@ const Footer = () => {
               </h6>
               <div className="flex social">
                 <div>
-                  <FaFacebook />
+                  <a href="https://twitter.com/Distrongr?t=_9U3TgNKTdWM34evqmTUkA&s=09">
+                    <FaTwitter />
+                  </a>
                 </div>
                 <div>
-                  <FaTwitter />
-                </div>
-                <div>
-                  <FaLinkedin />
+                  <a href="https://instagram.com/distrongr?igshid=YzdkMWQ2MWU=">
+                    <FaInstagram />
+                  </a>
                 </div>
               </div>
             </div>
